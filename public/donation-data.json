@@ -78,9 +78,9 @@
     "description": "Contribute to our effort to provide nutritious meals to homeless individuals in our community. Your support will alleviate hunger and provide hope to those in need. Join us in the fight against homelessness and make a difference in the lives of the less fortunate. Your generous donation will help us establish food distribution centers, provide hot meals, and offer support services to individuals experiencing homelessness.",
     "short_img": "meals_for_homeless_short.jpg",
     "Picture": "https://i.ibb.co/ssyj5B7/Meals-for-the-Homeless.jpg",
-    "category_bg_color": "#AEC8FF",
-    "card_bg_color": "#D9E5FF",
-    "text_btn_color": "#0052FF",
+    "category_bg_color": "#FDD2C4",
+    "card_bg_color": "#FEEAE3",
+    "text_btn_color": "#F87147",
     "price": 4000
   },
   {
@@ -90,9 +90,9 @@
     "description": "Help us replenish our local food pantry to ensure that no one in our community goes hungry. Your contribution will provide essential food items to those facing food insecurity. Join us in the fight against hunger and ensure that every family has access to nutritious meals. Your generous donation will help us purchase food staples, organize food drives, and support local families in need.",
     "short_img": "food_pantry_short.jpg",
     "Picture": "https://i.ibb.co/RHLDdvh/Food-Pantry-Restocking.jpg",
-    "category_bg_color": "#AEC8FF",
-    "card_bg_color": "#D9E5FF",
-    "text_btn_color": "#0052FF",
+    "category_bg_color": "#FDD2C4",
+    "card_bg_color": "#FEEAE3",
+    "text_btn_color": "#F87147",
     "price": 6000
   },
   {

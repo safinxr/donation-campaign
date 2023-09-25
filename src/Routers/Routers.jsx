@@ -11,6 +11,7 @@ import Statistics from "../Pages/Statistics/Statistics";
       children:[
         {
           path:'/',
+          loader:()=> fetch('/donation-data.json'),
           element:<Home></Home>
         },
         {
