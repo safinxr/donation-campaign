@@ -19,6 +19,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
         },
         {
           path:'/donation',
+          loader:()=> fetch('/donation-data.json'),
           element:<Donation></Donation>
         },
         {

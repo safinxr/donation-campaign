@@ -18,7 +18,6 @@ export default function DonationConfirm() {
         }
 
     },[])
-    console.log(donateBtn);
 
     const notify = (error) => toast.success(error, {
         position: "top-center",
