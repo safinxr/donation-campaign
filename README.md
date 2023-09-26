@@ -1,7 +1,7 @@
 
 # Donation Campaign
 
-This is a web application project that aims to create a donation website with features such as viewing donations, making donations, and displaying statistics. The project follows the requirements and design specified in the Figma design provided.
+This is a web application project that aims to create a donation website with features such as viewing donations, making donations, and displaying statistics.
 
 ## Demo
 [Website Live link](https://classy-kulfi-b51c75.netlify.app/)
