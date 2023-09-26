@@ -19,6 +19,9 @@ export default function Donation() {
 
     return (
         <div className="max-w-7xl mx-auto px-3 md:px-7 lg:px-0 my-11">
+            <div className={slicePageData.length === 0? "":"hidden"}>
+                <img className="mx-auto " src="https://i.ibb.co/Qd7pw2K/donate-bg-2.jpg" alt="" />
+            </div>
             <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                     slicePageData.map(data => <Card data={data} key={data.id}></Card>)
