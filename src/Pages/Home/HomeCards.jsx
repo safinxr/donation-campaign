@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom"
 
-export default function HomeCards({ data }) {
-    const navigate = useNavigate()
+export default function HomeCards({ data }) { 
     const { id, title, category, Picture, category_bg_color, text_btn_color, card_bg_color } = data
-
+    
+    const navigate = useNavigate()
     const cardClick = (cardId) => {
        navigate(`/dc/${cardId}`)
     }
