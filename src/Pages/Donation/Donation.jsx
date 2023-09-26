@@ -10,7 +10,7 @@ export default function Donation() {
         pageData.push(newData)
     }
     return (
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-3 md:px-7 lg:px-0">
             {
                 pageData.map(data => <Card data={data} key={data.id}></Card>)
             }
@@ -35,7 +35,7 @@ const Card = ({ data }) => {
                         </p>
 
                         <h3
-                            className="mt-1 text-xl font-bold">
+                            className="mt-1 text-sm lg:text-xl font-bold line-clamp-1 md:line-clamp-2 lg:line-clamp-1">
                             {title}
                         </h3>
                         <p
@@ -48,7 +48,7 @@ const Card = ({ data }) => {
                     <div >
                         <button
                             style={{ backgroundColor: text_btn_color }}
-                            className="px-6 py-1.5 rounded text-white font-semibold my-2"
+                            className="px-4 py-1 lg:px-6 lg:py-1.5 rounded text-white font-semibold my-2"
 
                         >View Details</button>
                     </div>
